@@ -6,6 +6,13 @@ function loop(){
 
 loop();
 
+if(true){
+    var k=0;
+}
+k++;
+console.log("k:: "+k);
 console.log(name);
 var name="Rafi";
+
+//var(function scope), let(block scope), const(block scope)
 
